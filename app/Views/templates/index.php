@@ -15,6 +15,10 @@
    <link href="<?= base_url() ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
    <link href="<?= base_url() ?>/assets/css/icons.css" rel="stylesheet" type="text/css">
    <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet" type="text/css">
+   <link href="<?= base_url() ?>/assets/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+   <!-- jQuery -->
+   <script src="<?= base_url() ?>/assets/js/jquery.min.js"></script>
 
 </head>
 
@@ -126,21 +130,8 @@
    <div class="wrapper">
       <div class="container-fluid">
 
-         <!-- Page-Title -->
-         <div class="row">
-            <div class="col-sm-12">
-               <div class="page-title-box">
-                  <h2 class="page-title"><?= $title; ?></h2>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-12">
-               <div class="card m-b-30">
                   <?= $this->renderSection('content'); ?>
-               </div>
-            </div>
-         </div>
+               
       </div> <!-- end container -->
    </div>
    <!-- end wrapper -->
@@ -160,7 +151,6 @@
 
 
    <!-- jQuery  -->
-   <script src="<?= base_url() ?>/assets/js/jquery.min.js"></script>
    <script src="<?= base_url() ?>/assets/js/popper.min.js"></script>
    <script src="<?= base_url() ?>/assets/js/bootstrap.min.js"></script>
    <script src="<?= base_url() ?>/assets/js/modernizr.min.js"></script>

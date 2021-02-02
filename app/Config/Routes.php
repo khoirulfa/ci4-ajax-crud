@@ -30,8 +30,8 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'C_pages::index');
-$routes->get('/siswa', 'C_siswa::index');
+$routes->get('/', 'Pages::index');
+$routes->get('/siswa', 'Siswa::index');
 
 /**
  * --------------------------------------------------------------------
