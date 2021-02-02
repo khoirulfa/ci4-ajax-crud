@@ -1,0 +1,249 @@
+CRITICAL - 2021-01-22 03:53:55 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-01-22 03:53:55 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 03:55:15 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->save(Array)
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-22 03:55:15 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 03:55:36 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->save(Array)
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-22 03:55:36 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 03:56:39 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->save(Array)
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-22 03:56:39 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 03:59:02 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->save(Array)
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-22 03:59:02 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 03:59:55 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->save(Array)
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-22 03:59:55 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 04:04:41 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->save(Array)
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-22 04:04:41 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 04:07:38 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(100): CodeIgniter\Model->save(Array)
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-22 04:07:38 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 04:10:20 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(102): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-01-22 04:10:20 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 04:14:16 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(102): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-01-22 04:14:16 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-22 04:17:10 --> Out of range value for column 'id' at row 1
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `si...')
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\app\Controllers\Siswa.php(102): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->savedata()
+#7 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-01-22 04:17:10 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 167 in D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Exceptions\HTTPException.php:179
+Stack trace:
+#0 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\HTTP\Response.php(319): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode(167)
+#1 D:\xampp\htdocs\2021\codeigniter\ci4-crud-ajax\vendor\codeigniter4\framework\system\Debug\Exceptions.php(162): CodeIgniter\HTTP\Response->setStatusCode(167)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2021-01-07 18:28:50 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1548): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1591): CodeIgniter\Database\BaseConnection->listTables()
+#3 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(945): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(193): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#6 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#10 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\2021\ci4-restapi\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\2021\ci4-restapi\spark(57): CodeIgniter\CLI\Console->run()
+#14 {main}
