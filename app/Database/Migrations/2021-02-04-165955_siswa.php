@@ -12,7 +12,7 @@ class Siswa extends Migration
          * Kelas
          */
 		$this->forge->addField([
-			'class_id'         => ['type' => 'tinyint', 'constraint' => 3, 'null' => false, 'auto_increment' => true],
+			'class_id'         => ['type' => 'tinyint', 'constraint' => 3, 'null' => false],
 			'class_name'       => ['type' => 'varchar', 'constraint' => 255, 'null' => true],
 		]);
 		$this->forge->addKey('class_id', true);
@@ -23,7 +23,7 @@ class Siswa extends Migration
          * Jurusan
          */
 		$this->forge->addField([
-			'major_id'         => ['type' => 'tinyint', 'constraint' => 3, 'null' => false, 'auto_increment' => true],
+			'major_id'         => ['type' => 'tinyint', 'constraint' => 3, 'null' => false],
 			'major_name'       => ['type' => 'varchar', 'constraint' => 255, 'null' => false],
 		]);
 		$this->forge->addKey('major_id', true);
@@ -34,7 +34,7 @@ class Siswa extends Migration
          * Seluruh mapel
          */
 		$this->forge->addField([
-			'study_id'        => ['type' => 'tinyint', 'constraint' => 3, 'null' => false, 'auto_increment' => true],
+			'study_id'        => ['type' => 'tinyint', 'constraint' => 3, 'null' => false],
 			'study_name'      => ['type' => 'varchar', 'constraint' => 255, 'null' => false],
 		]);
 		$this->forge->addKey('study_id', true);
